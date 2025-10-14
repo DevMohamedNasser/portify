@@ -1,1 +1,77 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Playwrite+AU+QLD:wght@100..400&display=swap');@import"tailwindcss";@plugin"flowbite-react/plugin/tailwindcss";@source"../.flowbite-react/class-list.json";@custom-variant dark(&:where(.dark,.dark*));.activeIt{background-color:tan;color:#333;border-radius:5px}@layer base{h1,h2,h3{font-family:var(--font-primary);@apply dark:text-white}h1{@apply text-4xl font-bold my-5}h2{@apply text-3xl font-bold mb-12 text-center}h5,h6{font-family:"Poppins",sans-serif}body{font-family:"Poppins",sans-serif;@apply text-[17px] md:text-[18px] leading-relaxed text-gray-800 dark:text-gray-200}a{text-decoration:none;color:var(--color-rose-500)}}@layer utilities{.container{@apply mx-auto px-2.5 md:px-0}}@layer components{.btn{@apply font-bold cursor-pointer text-white py-2 px-4 rounded-2xl transition-all duration-300}.btn-info{background-color:var(--color-sky-400)}.btn-info:hover,.btn-info:active{background-color:var(--color-sky-600)}.btn-info:focus{background-color:var(--color-sky-900)}}@theme{--color-hamada-100:#d2b48c;--color-hamada-300:#59390f;--font-primary:"Playwrite AU QLD",cursive;}
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Playwrite+AU+QLD:wght@100..400&family=Righteous&display=swap');
+@import "tailwindcss";
+@plugin "flowbite-react/plugin/tailwindcss";
+@source "../.flowbite-react/class-list.json";
+@custom-variant dark (&:where(.dark, .dark *));
+
+.activeIt {
+  background-color: tan;
+  color: #333;
+  border-radius: 5px;
+}
+
+
+
+/* for tags. extend on base */
+@layer base {
+  h1 {
+    font-size: var(--text-4xl);
+    margin-block: 1.25rem;
+    font-weight: bold;
+  }
+
+  h1, h2, h3 {
+    font-family: var(--font-primary);
+    @apply dark:text-white;
+  }
+
+  h5, h6 {
+    @apply font-sans
+  }
+
+  h2 {
+    @apply font-bold mb-12 text-center text-3xl
+  }
+
+  a {
+    text-decoration: none;
+    color: var(--color-rose-500);
+  }
+}
+
+@layer utilities {
+  .container {
+    @apply mx-auto px-2.5 md:px-0;
+  }
+}
+
+@layer components {
+  .btn {
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+    padding: .5rem 1rem;
+    border-radius: var(--radius-xl);
+  }
+
+  .btn-info {
+    background-color: var(--color-sky-400);
+    &:hover,
+    &:active {
+      background-color: var(--color-sky-600);
+    }
+    &:focus {
+      background-color: var(--color-sky-900);
+    }
+  }
+}
+
+@theme {
+  --color-hamada-100: #d2b48c;
+  --color-hamada-300: #59390f;
+  --font-primary: "Playwrite AU QLD", cursive;
+}
+
+body {
+  @apply text-base leading-relaxed
+}

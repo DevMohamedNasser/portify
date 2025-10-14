@@ -2,7 +2,7 @@
   "name": "app4",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://github.com/DevMohamedNasser/Portify",
+  "homepage": "https://github.com/DevMohamedNasser/portify",
   "type": "module",
   "scripts": {
     "dev": "vite",
