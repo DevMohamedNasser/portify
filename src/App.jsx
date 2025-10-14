@@ -1,8 +1,8 @@
 import "./App.css";
 // import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import NotFound from "./components/NotFound/NotFound.jsx";
-import Layout from "./components/main/Layout/Layout";
-import Conan from "./sections/Conan/Conan";
+// import NotFound from "./components/NotFound/NotFound.jsx";
+// import Layout from "./components/main/Layout/Layout";
+// import Conan from "./sections/Conan/Conan";
 import Nav from "./components/main/Nav/Nav.jsx";
 import Hero from "./sections/Conan/Hero.jsx";
 import About from "./sections/About/About.jsx";
