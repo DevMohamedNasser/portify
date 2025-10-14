@@ -4,6 +4,7 @@ import me from "../../assets/Images/me.jpg";
 export default function Hero() {
   return (
     <section id="Home" className="bg-white dark:bg-gray-950 pt-16 md:pt-0">
+      
       <div className="container  text-start">
         <div className="grid md:grid-cols-2 min-h-screen items-center justify-center md:gap-24">
           <div className="col-span-1 flex justify-center">
@@ -27,10 +28,9 @@ export default function Hero() {
               Development 🚀
             </p>
             <div className="my-3 flex gap-6">
+              
               <button
-                onClick={() =>
-                  window.open("https://github.com/DevMohamedNasser")
-                }
+              onClick={()=> window.open('https://github.com/DevMohamedNasser')}
                 className="cursor-pointer border border-gray-800 text-gray-800 dark:border-gray-300 dark:text-gray-300
              px-5 py-2 rounded-lg font-medium transition-colors duration-300
              hover:bg-gray-800 hover:text-white dark:hover:bg-gray-200 dark:hover:text-gray-900
@@ -39,7 +39,6 @@ export default function Hero() {
                 View GitHub
               </button>
               <button
-<<<<<<< HEAD
                 onClick={() =>
                   window.open(
                     "https://drive.google.com/file/d/1097RgvkjMPfifoTnUhpzVC4ixvhbA-Lg/view?usp=drive_link",
@@ -47,13 +46,10 @@ export default function Hero() {
                     "noopener,noreferrer"
                   )
                 }
-=======
-                onClick={()=> window.open('https://drive.google.com/file/d/1097RgvkjMPfifoTnUhpzVC4ixvhbA-Lg/view?usp=drive_link')}
->>>>>>> 686e87c40d82a7e3b0009f2f78c66839a5fed2fc
                 className="cursor-pointer bg-sky-600 text-white px-5 py-2 rounded-lg font-medium transition-colors duration-300
-                hover:bg-sky-700 active:bg-sky-800
-                dark:bg-sky-700 dark:hover:bg-sky-400 dark:active:bg-sky-300 dark:active:text-gray-900
-                active:scale-95"
+             hover:bg-sky-700 active:bg-sky-800
+             dark:bg-sky-700 dark:hover:bg-sky-400 dark:active:bg-sky-300 dark:active:text-gray-900
+             active:scale-95"
               >
                 Download CV
               </button>
