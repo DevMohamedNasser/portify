@@ -14,7 +14,7 @@ import FooterApp from "./components/main/Footer/Footer.jsx";
 function App() {
   // const router = createBrowserRouter([
   //   {
-  //     path: "",
+
 
   //     /* اى غلط م عندى كمبرمج ف الكود*/
   //     errorElement: <NotFound />,
