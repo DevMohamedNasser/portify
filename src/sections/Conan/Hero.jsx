@@ -41,7 +41,7 @@ export default function Hero() {
               <button
                 onClick={() =>
                   window.open(
-                    "https://drive.google.com/file/d/1097RgvkjMPfifoTnUhpzVC4ixvhbA-Lg/view?usp=drive_link",
+                    "https://drive.google.com/file/d/1FnWNTU8kd2ehYtVG6iZwwcLVBF7zSs56/view?usp=sharing",
                     "_blank",
                     "noopener,noreferrer"
                   )
