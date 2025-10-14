@@ -1,6 +1,6 @@
 import "./App.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import NotFound from "./components/NotFound/NotFound.jsx";
+// import NotFound from "./components/NotFound/NotFound.jsx";
 import Layout from "./components/main/Layout/Layout";
 import Conan from "./sections/Conan/Conan";
 
@@ -10,7 +10,7 @@ function App() {
       path: "",
 
       /* اى غلط م عندى كمبرمج ف الكود*/
-      errorElement: <NotFound />,
+      // errorElement: <NotFound />,
 
       element: <Layout />,
       children: [
