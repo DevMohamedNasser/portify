@@ -1,10 +1,15 @@
 import React from "react";
 import me from "../../assets/Images/me.jpg";
+import { toast, ToastContainer } from "react-toastify";
+
 
 export default function Hero() {
   return (
     <section id="Home" className="bg-white dark:bg-gray-950 pt-16 md:pt-0">
-      
+      <ToastContainer
+        position="top-right"
+        theme="dark"
+      />
       <div className="container  text-start">
         <div className="grid md:grid-cols-2 min-h-screen items-center justify-center md:gap-24">
           <div className="col-span-1 flex justify-center">
@@ -28,9 +33,10 @@ export default function Hero() {
               Development 🚀
             </p>
             <div className="my-3 flex gap-6">
-              
               <button
-              onClick={()=> window.open('https://github.com/DevMohamedNasser')}
+                onClick={() =>
+                  window.open("https://github.com/DevMohamedNasser")
+                }
                 className="cursor-pointer border border-gray-800 text-gray-800 dark:border-gray-300 dark:text-gray-300
              px-5 py-2 rounded-lg font-medium transition-colors duration-300
              hover:bg-gray-800 hover:text-white dark:hover:bg-gray-200 dark:hover:text-gray-900
@@ -40,11 +46,9 @@ export default function Hero() {
               </button>
               <button
                 onClick={() =>
-                  window.open(
-                    "https://drive.google.com/file/d/1FnWNTU8kd2ehYtVG6iZwwcLVBF7zSs56/view?usp=sharing",
-                    "_blank",
-                    "noopener,noreferrer"
-                  )
+                  toast.info('Update in progress - available soon!', {
+                    theme: "colored",
+                  })
                 }
                 className="cursor-pointer bg-sky-600 text-white px-5 py-2 rounded-lg font-medium transition-colors duration-300
              hover:bg-sky-700 active:bg-sky-800
@@ -53,6 +57,8 @@ export default function Hero() {
               >
                 Download CV
               </button>
+
+              
             </div>
           </div>
         </div>
