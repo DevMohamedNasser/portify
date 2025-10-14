@@ -39,6 +39,7 @@ export default function Hero() {
                 View GitHub
               </button>
               <button
+                onClick={()=> window.open('https://drive.google.com/file/d/1097RgvkjMPfifoTnUhpzVC4ixvhbA-Lg/view?usp=drive_link')}
                 className="cursor-pointer bg-sky-600 text-white px-5 py-2 rounded-lg font-medium transition-colors duration-300
              hover:bg-sky-700 active:bg-sky-800
              dark:bg-sky-700 dark:hover:bg-sky-400 dark:active:bg-sky-300 dark:active:text-gray-900
