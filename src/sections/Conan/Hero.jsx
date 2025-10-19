@@ -46,9 +46,7 @@ export default function Hero() {
               </button>
               <button
                 onClick={() =>
-                  toast.info('Update in progress - available soon!', {
-                    theme: "colored",
-                  })
+                  window.open("https://1drv.ms/b/c/6aa95763ec7074d2/ES4biUni-1xApOt79IUedw8BEWJw5RrA3OvMRgNa8iNoaA?e=LZFAco")
                 }
                 className="cursor-pointer bg-sky-600 text-white px-5 py-2 rounded-lg font-medium transition-colors duration-300
              hover:bg-sky-700 active:bg-sky-800
