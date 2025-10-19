@@ -44,7 +44,7 @@ export default function Hero() {
               >
                 View GitHub
               </button>
-              <button
+              {/* <button
                 onClick={() =>
                   window.open("https://1drv.ms/b/c/6aa95763ec7074d2/ES4biUni-1xApOt79IUedw8BEWJw5RrA3OvMRgNa8iNoaA?e=LZFAco")
                 }
@@ -54,7 +54,18 @@ export default function Hero() {
              active:scale-95"
               >
                 Download CV
-              </button>
+              </button> */}
+              <a
+                href="https://1drv.ms/b/c/6aa95763ec7074d2/ES4biUni-1xApOt79IUedw8BEWJw5RrA3OvMRgNa8iNoaA?e=LZFAco"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="cursor-pointer bg-sky-600 text-white px-5 py-2 rounded-lg font-medium transition-colors duration-300
+                hover:bg-sky-700 active:bg-sky-800
+                dark:bg-sky-700 dark:hover:bg-sky-400 dark:active:bg-sky-300 dark:active:text-gray-900
+                active:scale-95"
+              >
+                Download CV
+              </a>
 
               
             </div>
