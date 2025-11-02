@@ -54,15 +54,18 @@ export default function Hero() {
                 Download CV
               </button> */}
               <a
-                href={`${process.env.PUBLIC_URL}/Mohamed_Nasser_CV.pdf`}
-                download="Mohamed_Nasser_CV.pdf"
+                href="https://1drv.ms/b/s!Auod8Ll3NcWacfpbGXrChABMOHA?e=XqH7K3"
+                target={window.innerWidth > 768 ? "_blank" : "_self"} 
+                rel="noopener noreferrer"
+                download 
                 className="cursor-pointer bg-sky-600 text-white px-5 py-2 rounded-lg font-medium transition-colors duration-300
                 hover:bg-sky-700 active:bg-sky-800
                 dark:bg-sky-700 dark:hover:bg-sky-400 dark:active:bg-sky-300 dark:active:text-gray-900
                 active:scale-95"
               >
                 Download CV
-              </a>
+            </a>
+
 
 
             </div>
