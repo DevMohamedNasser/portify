@@ -54,7 +54,7 @@ export default function Hero() {
                 Download CV
               </button> */}
               <a
-                href="/portify/Mohamed_Nasser_CV.pdf"
+                href={`${process.env.PUBLIC_URL}/Mohamed_Nasser_CV.pdf`}
                 download="Mohamed_Nasser_CV.pdf"
                 className="cursor-pointer bg-sky-600 text-white px-5 py-2 rounded-lg font-medium transition-colors duration-300
                 hover:bg-sky-700 active:bg-sky-800
