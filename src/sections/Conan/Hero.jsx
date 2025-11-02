@@ -44,9 +44,9 @@ export default function Hero() {
               >
                 View GitHub
               </button>
-              {/* <button
+              <button
                 onClick={() =>
-                  window.open("https://1drv.ms/b/c/6aa95763ec7074d2/ES4biUni-1xApOt79IUedw8BEWJw5RrA3OvMRgNa8iNoaA?e=LZFAco")
+                  window.open("https://drive.google.com/file/d/1a0iCygP0GNxIY2ngIHxUJB1-zP9HD2Y9/view?usp=sharing")
                 }
                 className="cursor-pointer bg-sky-600 text-white px-5 py-2 rounded-lg font-medium transition-colors duration-300
              hover:bg-sky-700 active:bg-sky-800
@@ -54,8 +54,8 @@ export default function Hero() {
              active:scale-95"
               >
                 Download CV
-              </button> */}
-              <a
+              </button>
+              {/* <a
                 href="https://1drv.ms/b/c/6aa95763ec7074d2/ES4biUni-1xApOt79IUedw8BEWJw5RrA3OvMRgNa8iNoaA?e=LZFAco"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -65,7 +65,7 @@ export default function Hero() {
                 active:scale-95"
               >
                 Download CV
-              </a>
+              </a> */}
 
               
             </div>
