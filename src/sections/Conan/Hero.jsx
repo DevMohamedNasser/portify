@@ -2,14 +2,10 @@ import React from "react";
 import me from "../../assets/Images/me.jpg";
 import { toast, ToastContainer } from "react-toastify";
 
-
 export default function Hero() {
   return (
     <section id="Home" className="bg-white dark:bg-gray-950 pt-16 md:pt-0">
-      <ToastContainer
-        position="top-right"
-        theme="dark"
-      />
+      <ToastContainer position="top-right" theme="dark" />
       <div className="container  text-start">
         <div className="grid md:grid-cols-2 min-h-screen items-center justify-center md:gap-24">
           <div className="col-span-1 flex justify-center">
@@ -44,9 +40,11 @@ export default function Hero() {
               >
                 View GitHub
               </button>
-              <button
+              {/* <button
                 onClick={() =>
-                  window.open("https://drive.google.com/file/d/1a0iCygP0GNxIY2ngIHxUJB1-zP9HD2Y9/view?usp=sharing")
+                  window.open(
+                    "https://1drv.ms/b/c/6aa95763ec7074d2/ES4biUni-1xApOt79IUedw8BEWJw5RrA3OvMRgNa8iNoaA?e=LZFAco"
+                  )
                 }
                 className="cursor-pointer bg-sky-600 text-white px-5 py-2 rounded-lg font-medium transition-colors duration-300
              hover:bg-sky-700 active:bg-sky-800
@@ -54,9 +52,9 @@ export default function Hero() {
              active:scale-95"
               >
                 Download CV
-              </button>
-              {/* <a
-                href="https://1drv.ms/b/c/6aa95763ec7074d2/ES4biUni-1xApOt79IUedw8BEWJw5RrA3OvMRgNa8iNoaA?e=LZFAco"
+              </button> */}
+              <a
+                href="/Mohamed Nasser (frontend developer).pdf" download
                 target="_blank"
                 rel="noopener noreferrer"
                 className="cursor-pointer bg-sky-600 text-white px-5 py-2 rounded-lg font-medium transition-colors duration-300
@@ -65,9 +63,7 @@ export default function Hero() {
                 active:scale-95"
               >
                 Download CV
-              </a> */}
-
-              
+              </a>
             </div>
           </div>
         </div>
