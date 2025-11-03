@@ -55,9 +55,8 @@ export default function Hero() {
               </button> */}
               <a
                 href="https://1drv.ms/b/s!Auod8Ll3NcWacfpbGXrChABMOHA?e=XqH7K3"
-                target={window.innerWidth > 768 ? "_blank" : "_self"} 
+                target="_blank"
                 rel="noopener noreferrer"
-                download 
                 className="cursor-pointer bg-sky-600 text-white px-5 py-2 rounded-lg font-medium transition-colors duration-300
                 hover:bg-sky-700 active:bg-sky-800
                 dark:bg-sky-700 dark:hover:bg-sky-400 dark:active:bg-sky-300 dark:active:text-gray-900
@@ -65,6 +64,7 @@ export default function Hero() {
               >
                 Download CV
             </a>
+
 
 
 
