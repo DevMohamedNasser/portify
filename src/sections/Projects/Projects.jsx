@@ -6,11 +6,30 @@ import ecommerce from '../../assets/Images/ecommerce.png';
 import socialApp from '../../assets/Images/socialApp.png';
 import weather from '../../assets/Images/weather.png'
 import quizApp from '../../assets/Images/quizApp.png';
+import hedaApp from '../../assets/Images/hedaApp.png';
+import noteApp from '../../assets/Images/noteApp.png';
 
 
 
 export default function Projects() {
   const projects = [
+    {
+      img: hedaApp,
+      heading: "Heda – Islamic App",
+      descrip:
+        "Comprehensive Islamic app with automatic prayer times, Qibla direction, Quran reading/listening, Hadiths, daily Azkar, digital Tasbeeh & Zakat calculator.",
+      demo: "https://heda-app.vercel.app",
+      repo: "https://github.com/DevMohamedNasser/heda.git",
+    },
+    {
+      img: noteApp,
+      heading: "Note App",
+      descrip:
+        "A note-taking web application built with Next.js, allowing users to create, edit & organize notes with a clean and responsive UI.",
+      demo: "https://note-app-chi-five.vercel.app/",
+      repo: "https://github.com/DevMohamedNasser/Note-App.git",
+    },
+
     {
       img: ddaAlgo,
       heading: "DDA Algorithm visualizer",
