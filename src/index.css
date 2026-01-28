@@ -1,0 +1,70 @@
+/* استدعاء الخطوط من Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Playwrite+AU+QLD:wght@100..400&family=Righteous&display=swap');
+
+/* Tailwind الأساسي */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Base styles */
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: ui-sans-serif, system-ui, sans-serif; /* بديل عن font-sans */
+    font-size: 1rem;
+    line-height: 1.75;
+    background-color: white;
+    color: #111827; /* gray-900 */
+  }
+
+  html.dark body {
+    background-color: #111827; /* gray-900 */
+    color: #f9fafb; /* gray-50 */
+  }
+
+  h1 {
+    @apply text-4xl font-bold mb-5; /* حجم H1 مظبوط */
+    font-family: "Playwrite AU QLD", cursive;
+  }
+
+  h2, h3 {
+    font-family: "Playwrite AU QLD", cursive;
+  }
+
+  h5, h6 {
+    @apply font-sans;
+  }
+
+  h2 {
+    @apply font-bold mb-12 text-center text-3xl;
+  }
+
+  a {
+    text-decoration: none;
+    color: #ec4899; /* rose-500 */
+  }
+}
+
+/* Components */
+@layer components {
+  .btn {
+    font-weight: 700;
+    cursor: pointer;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+  }
+
+  .btn-info {
+    background-color: #38bdf8; /* sky-400 */
+  }
+
+  .activeIt {
+    background-color: tan;
+    color: #333;
+    border-radius: 5px;
+  }
+}
