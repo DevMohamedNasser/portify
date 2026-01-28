@@ -4,7 +4,7 @@ import { ToastContainer } from "react-toastify";
 
 export default function Hero() {
   return (
-    <section id="Home" className="bg-white dark:bg-gray-950 pt-16 md:pt-0">
+    <section id="Home" className="px-2 md:px-4 bg-white dark:bg-gray-950 pt-16 md:pt-0">
       <ToastContainer position="top-right" theme="dark" />
       <div className="container text-start">
         <div className="grid md:grid-cols-2 min-h-screen items-center justify-center md:gap-24">

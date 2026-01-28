@@ -96,7 +96,7 @@ export default function Projects() {
   ];
 
   return (
-    <section id="Projects" className="bg-gray-100 dark:bg-gray-950 py-20">
+    <section id="Projects" className="px-2 md:px-4 bg-gray-100 dark:bg-gray-950 py-20">
       <div className="container">
         <h2 className="text-gray-800 dark:text-gray-100">Projects</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">

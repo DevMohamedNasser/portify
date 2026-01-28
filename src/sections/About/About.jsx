@@ -2,7 +2,7 @@ import programmer from "../../assets/Images/programmer.jpg";
 
 export default function About() {
   return (
-    <section id='About' className="dark:bg-gray-900 bg-gray-100 dark:text-gray-100 py-24">
+    <section id='About' className="px-2 md:px-4 dark:bg-gray-900 bg-gray-100 dark:text-gray-100 py-24">
       <div className="container mx-auto text-start">
         <h2 className="text-gray-800 dark:text-gray-200">About Me</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 items-center gap-x-8">
