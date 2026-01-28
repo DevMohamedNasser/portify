@@ -6,7 +6,7 @@ export default function Contact() {
   return (
     <section
       id="Contact"
-      className="px-2 md:px-4 bg-gray-50 dark:bg-gray-950 text-gray-700 dark:text-gray-300 py-6"
+      className="px-2 bg-gray-50 dark:bg-gray-950 text-gray-700 dark:text-gray-300 py-6"
     >
       <div className="container">
         <h2 className="text-sky-600 dark:text-sky-400">Contact Me</h2>

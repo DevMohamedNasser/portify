@@ -52,9 +52,10 @@ export default function Skills() {
     ]
 
   return (
-    <section id='Skills' className='min-h-screen bg-gray-50 dark:bg-gray-900 grid items-center'>
+    <section id='Skills' className='min-h-screen pt-6 bg-gray-50 dark:bg-gray-900 grid items-center'>
 
-        <div className="px-2 md:px-4 container mx-auto">
+
+        <div className="px-2 container">
             <h2 className="text-sky-600 dark:text-sky-400">Skills</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
                 {
