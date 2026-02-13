@@ -1,16 +1,15 @@
 import React from "react";
 import { ProjectCard } from "../../components/Projects/ProjectCard";
-import ddaAlgo from '../../assets/Images/ddaAlgo.png';
-import opticalSystem from '../../assets/Images/opticalSystem.png';
-import ecommerce from '../../assets/Images/ecommerce.png';
-import socialApp from '../../assets/Images/socialApp.png';
-import weather from '../../assets/Images/weather.png'
-import quizApp from '../../assets/Images/quizApp.png';
-import hedaApp from '../../assets/Images/hedaApp.png';
-import noteApp from '../../assets/Images/noteApp.png';
-import surgeryAppointment from '../../assets/Images/surgeryAppointmentSystem.png';
-
-
+import ddaAlgo from "../../assets/Images/ddaAlgo.png";
+import opticalSystem from "../../assets/Images/opticalSystem.png";
+import ecommerce from "../../assets/Images/ecommerce.png";
+import socialApp from "../../assets/Images/socialApp.png";
+import weather from "../../assets/Images/weather.png";
+import quizApp from "../../assets/Images/quizApp.png";
+import hedaApp from "../../assets/Images/hedaApp.png";
+import noteApp from "../../assets/Images/noteApp.png";
+import surgeryAppointment from "../../assets/Images/surgeryAppointmentSystem.png";
+import thanaweya from "../../assets/Images/thanaweya.png";
 
 export default function Projects() {
   const projects = [
@@ -27,7 +26,7 @@ export default function Projects() {
       heading: "Dr Appointment Booking System",
       descrip:
         "Smart booking system for surgical clinics: shows available slots, keeps 4 upcoming days, and includes a professional Dr portfolio.",
-      demo: "https://dr-abdulrahman-mabrouk.vercel.app/", 
+      demo: "https://dr-abdulrahman-mabrouk.vercel.app/",
       repo: "https://github.com/DevMohamedNasser/surgery_appointment.git",
     },
     {
@@ -58,9 +57,18 @@ export default function Projects() {
     {
       img: socialApp,
       heading: "Social App",
-      descrip: "A modern social app that lets users share posts, interact, and connect — designed with a clean, responsive UI.",
+      descrip:
+        "A modern social app that lets users share posts, interact, and connect — designed with a clean, responsive UI.",
       demo: "https://devmohamednasser.github.io/react_social_app/",
       repo: "https://github.com/DevMohamedNasser/react_social_app.git",
+    },
+    {
+      img: thanaweya,
+      heading: "Thanaweya Amma Results",
+      descrip:
+        "Displaying Thanaweya Amma results, featuring Supabase, form validation, and a scalable architecture for future years.",
+      demo: "https://thanaweya-amma-results.vercel.app/",
+      repo: "https://github.com/DevMohamedNasser/thanaweya-amma-results",
     },
     {
       img: weather,
@@ -96,12 +104,20 @@ export default function Projects() {
   ];
 
   return (
-
     <section id="Projects" className="px-2 bg-gray-100 dark:bg-gray-950 py-20">
       <div className="container">
         <h2 className="text-gray-800 dark:text-gray-100">Projects</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-          {projects.map(project => <ProjectCard key={project.heading} src={project.img} heading={project.heading} descrip={project.descrip} demo={project.demo} repo={project.repo} />)}
+          {projects.map((project) => (
+            <ProjectCard
+              key={project.heading}
+              src={project.img}
+              heading={project.heading}
+              descrip={project.descrip}
+              demo={project.demo}
+              repo={project.repo}
+            />
+          ))}
         </div>
       </div>
     </section>
