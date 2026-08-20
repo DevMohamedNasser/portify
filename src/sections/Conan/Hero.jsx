@@ -53,7 +53,7 @@ export default function Hero() {
               >
                 Download CV
               </button> */}
-              <a
+              {/* <a
                 href="https://docs.google.com/document/d/1_gMnvkPF1LhIJq7O7j94YKuAhB5ESR5YBGcEJt9AWeY/export?format=pdf"
                 download="Mohamed_Nasser_CV.pdf"
                 className="cursor-pointer bg-sky-600 text-white px-5 py-2 rounded-lg font-medium transition-colors duration-300
@@ -62,8 +62,16 @@ export default function Hero() {
              active:scale-95"
               >
                 Download CV
+              </a> */}
+              <a
+                href="https://drive.google.com/uc?export=download&id=1BYj8kCKBEL_R83pDIkAyV0ThRmefhx7k"
+                className="cursor-pointer bg-sky-600 text-white px-5 py-2 rounded-lg font-medium transition-colors duration-300
+                hover:bg-sky-700 active:bg-sky-800
+                dark:bg-sky-700 dark:hover:bg-sky-400 dark:active:bg-sky-300
+                dark:active:text-gray-900 active:scale-95"
+              >
+                Download CV
               </a>
-
             </div>
           </div>
         </div>
